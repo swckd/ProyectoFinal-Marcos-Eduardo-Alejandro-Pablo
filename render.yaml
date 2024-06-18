@@ -26,7 +26,9 @@ services:
                 name: postgresql-trapezoidal-42170
                 property: connectionString
           - key: DEBUG
-            value: "desired_value"
+            value: true
+          - key: BACKEND_URL
+            value: "https://sample-service-name-82l8.onrender.com"
 
 databases: # Render PostgreSQL database
     - name: postgresql-trapezoidal-42170
